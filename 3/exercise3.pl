@@ -6,6 +6,6 @@ my %fruit = ( banana => 'yellow',
 	      orange => 'orange',
 	      grape => 'red',
             );
-for my $fruta (keys %fruit){
-	print "$fruta is $fruit{$fruta}\n";
+foreach (keys %fruit){
+	print "$_ is $fruit{$_}\n";
 }
