@@ -35,7 +35,7 @@ While Control Structure
 Like most algorithmic programming languages, Perl has a number of looping struc-
 tures. The while loop repeats a block of code as long as a condition is true:
 
-`
+````
 $count = 0;
 
 while ($count < 10) {
@@ -50,7 +50,7 @@ if ( defined($madonna) ) {
 } else {
 	print "No input available!\n";
 }
-`
+````
 
 Lists and Arrays
 ----------------
